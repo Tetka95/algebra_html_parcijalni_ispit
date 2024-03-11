@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html>
   <meta charset="UTF-8">
+  <meta content="width=device-width, initial scale=1.0">
   <head>
-    <title><i>Turistička agencija "Avanturist"</i></title>
+    <title>Turistička agencija "Avanturist"</title>
+    <style>
+      aside {
+          width: 30%;
+          padding-left: 15px;
+          margin-left: 15px;
+          float: right;
+          font-style: italic;
+          background-color: rgb(126, 126, 209);
+          text-align: center;
+        }
+  </style>
   </head>
   <body>
-    
+    <header>
+      <h1>Turistička agencija "Avanturist"</h1>
+        <nav>
+          <ul>
+            <li><a href="#o_nama">O nama</a></li>
+            <li><a href="#naše_djelatnosti">Naše djelatnosti</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+      <section id="o_nama">
+        <h2>O nama</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus, veritatis ut ratione dolorem reprehenderit doloribus, necessitatibus, animi fugiat maxime impedit! Praesentium, delectus molestias? Architecto quam dolor earum quisquam provident?Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque fuga praesentium tempora nesciunt ipsa itaque maxime dignissimos. Quidem hic ratione sequi rem dolores rerum, quas facilis autem aliquam culpa?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, ab eius? Et ducimus quod ex ad. Asperiores architecto eius quae et. Placeat quos quasi totam dignissimos nam exercitationem adipisci deleniti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis porro reprehenderit aperiam, dolorem, ea veniam modi eum aut voluptatem rem distinctio autem voluptates ex beatae impedit quam voluptas odit minus.
+          <br>
+          <br>
+          <img src="./media/slika1.jpg" alt="putovanje" width="500" height="350">
+        </p>
+      </section>
+      <aside>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <br>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <br>
+        <a href="./media_stranica.html">Galerija</a>
+      </aside>
+      <section id="naše_djelatnosti">
+        <h2>Naše djelatnosti</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, repellendus? Cupiditate, mollitia non. Esse unde voluptatibus ut quam asperiores necessitatibus culpa, ducimus beatae dolor, mollitia impedit officia ipsa modi sunt!Loremlo
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea similique in sed cumque veniam. Cupiditate voluptates aliquam placeat assumenda, ad magnam quaerat minus amet nostrum beatae possimus ex consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nisi laboriosam culpa a expedita numquam magnam ea amet nesciunt. Voluptas sequi, rem tenetur ratione aspernatur cumque? Illum delectus sapiente libero! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque reprehenderit mollitia, porro quae adipisci eum eaque? Debitis, deleniti vero? Inventore voluptas fugit, debitis alias soluta vero dolorum beatae sunt harum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias laboriosam at, incidunt, quis perspiciatis maiores cumque dolores quia ducimus odit mollitia vero impedit totam quae? Aliquam, nesciunt. Quae, ipsa quod?
+        </p>
+        <img src="./media/slika2.jpg" alt="putovanje" width="500" height="350">
+      </section>
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam facere numquam dignissimos expedita praesentium necessitatibus exercitationem provident vitae eligendi cum, consectetur vero eveniet ratione tenetur corporis sed deserunt eaque amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam officia ut inventore non eius dolorum necessitatibus aspernatur quia, debitis modi perferendis unde, repudiandae animi quisquam quas aut voluptatibus. Animi!Loremlo
+        </p>
+        <form>
+          <p>
+            <label for="ime">Ime i prezime</label>
+            <br>
+            <input id="ime" type="text" placeholder="Hrvoje Horvat" required>
+        </p>
+        <p>
+            <label for="e-mail">E-mail</label>
+            <br>
+            <input id="e-mail" type="text" placeholder="ime.prezime@gmail.com" required>
+        </p>
+        <p>
+            <label for="message">Poruka</label>
+            <br>
+            <textarea id="message" name="poruka" rows="7", cols="50" placeholder="Unesite poruku"></textarea>
+        </p>
+        <p>
+            <input class=submition type="submit" value="Pošalji poruku">
+        </p>
+        </form>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      Avanturisrt © 2024
+      <br>
+      <a href="mailto:martina.bobek95@gmail.com"><img src="./media/mail.png" alt="e-mail kontakt" width="40" height="40"></a>
+    </footer>
   </body>
 </html>
